@@ -1,0 +1,94 @@
+body {
+    font-family: "NanumSquareRound", 'Noto Sans KR', 'Inter', Malgun Gothic, 'Malgun Gothic', Arial, tahoma, verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f2f2f2; /* 배경색을 연한 회색으로 변경 */
+    color: #333333; /* 텍스트 색상을 어두운 회색으로 변경 */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* 배경색을 흰색으로 변경 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background-color: #003865; /* 헤더 배경색을 진한 파란색으로 변경 */
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff; /* 헤더 텍스트 색상을 흰색으로 변경 */
+}
+
+.header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 28px;
+}
+
+.header p {
+    margin: 0;
+    padding: 10px 0 0 0;
+    font-size: 16px;
+    color: #c5d1db; /* 헤더 부드러운 텍스트 색상을 연한 파란색으로 변경 */
+}
+
+.section h2 {
+    border-bottom: 2px solid #003865; /* 섹션 제목 밑줄을 진한 파란색으로 변경 */
+    padding-bottom: 5px;
+    color: #003865; /* 섹션 제목 텍스트 색상을 진한 파란색으로 변경 */
+}
+
+.section h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #003865; /* 섹션 소제목 텍스트 색상을 진한 파란색으로 변경 */
+}
+
+.table-container {
+    overflow-x: auto;
+    line-height: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+th {
+    background-color: #f2f8fc;
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777777; /* 푸터 텍스트 색상을 어두운 회색으로 변경 */
+}
+
+.footer a {
+    color: #003865; /* 링크 색상을 진한 파란색으로 변경 */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+}
